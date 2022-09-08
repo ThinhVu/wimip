@@ -1,0 +1,28 @@
+{
+  "name": "wimip",
+  "version": "1.0.0",
+  "description": "What is my ip",
+  "main": "index.js",
+  "scripts": {
+    "serve": "node src/index.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/ThinhVu/wimip.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/ThinhVu/wimip/issues"
+  },
+  "homepage": "https://github.com/ThinhVu/wimip#readme",
+  "dependencies": {
+    "cors": "^2.8.5",
+    "express": "^4.18.1",
+    "ngrok": "^4.3.3"
+  },
+  "devDependencies": {
+    "dotenv": "^16.0.2"
+  }
+}
