@@ -1,5 +1,5 @@
 FROM node:14-alpine as builder
 COPY . .
-RUN yarn
+RUN ls
 ENV NODE_ENV=production
-ENTRYPOINT ["node", "./src/index.js"]
+ENTRYPOINT ["/bin/sh", "-c" , "yarn && node ./src/index.js"]

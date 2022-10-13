@@ -1,20 +1,19 @@
 # Dependencies
 node_modules/
 
+# Excludes
+deploy.js
+nginx-config
+README.md
+.env
+.DS_Store
+Dockerfile
+
 # IDE
 .idea/
 .vscode/
-
-# Misc
-.env
-.DS_Store
 
 # Package manager
 npm-debug.log*
 yarn-debug.log*
 yarn-error.log*
-
-/logs/
-/drawio/
-/postman/
-/tests/
